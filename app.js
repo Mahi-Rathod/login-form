@@ -1,5 +1,5 @@
 const container = document.querySelector(".container");
-
+container.style.background = "linear-gradient(to right, purple, blue)"
 const navbar = document.createElement("div");
 
 navbar.classList.add("navbar");

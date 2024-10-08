@@ -1,0 +1,30 @@
+body{
+    margin: auto;
+    width: 98%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+    margin-top: 10px;
+    width: 100%;
+    height: 96vh;
+    border-radius: 5px;
+}
+
+.navbar{
+    width: 90%;
+    margin: auto;
+    height: 5rem;
+    display: flex;
+    color: aliceblue;
+}
+
+ul{
+    width: 50%;
+    margin: auto;
+}
+li{
+    display: inline;
+    padding-inline: 1.5rem;
+    font-weight: bold;
+}
