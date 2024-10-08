@@ -85,3 +85,28 @@ password.setAttribute("type", "password");
 password.setAttribute("id", "password");
 
 passwordContainer.appendChild(password);
+
+
+//buttons 
+
+//cancel button
+const buttonContainer = document.createElement("div");
+buttonContainer.classList.add("button-container");
+
+loginForm.appendChild(buttonContainer);
+
+const cancelButton = document.createElement("button");
+cancelButton.classList.add("cancel-btn")
+cancelButton.setAttribute("type", "cancel");
+cancelButton.innerText = "Cancel";
+buttonContainer.appendChild(cancelButton);
+
+
+//submit button
+
+
+const subButton = document.createElement("button");
+subButton.classList.add("submit-btn")
+subButton.setAttribute("type", "submit");
+subButton.innerText = "Login";
+buttonContainer.appendChild(subButton);
